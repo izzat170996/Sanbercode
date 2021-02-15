@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <title>Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="welcome.html" method="POST">
+            <fieldset>
+                <h1>Buat Account Baru !</h1>
+                <h3>Sign Up Form</h3>
+                <p>
+                    <label>First Name:</label>
+                    <input type="text" name="nama" />
+                </p>
+                <p>
+                    <label>Last Name:</label>
+                    <input type="text" name="nama" />
+                </p>
+                <p>
+                    <label>Gender:</label>
+                </p>
+                <p>
+                    <label><input type="radio" name="gender" value="male" /> Male </label>
+                    <br>
+                    <label><input type="radio" name="gender" value="female" /> Female </label>
+                    <br>
+                    <label><input type="radio" name="gender" value="other" /> Other </label>
+                </p>
+                <p>
+                    <label>Nationality:</label>
+                </p>
+                <p>
+                    <select name="Indonesia">
+                        <option value="indonesia">Indonesia</option>
+                        <option value="singapura">Singapura</option>
+                        <option value="jepang">Jepang</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Language Spoken:</label>
+                </p>
+                <p>
+                    <label><input type="checkbox" name="bahasa_indonesia" value="bahasaIndonesia"/> Bahasa Indonesia</label>
+                    <br>
+                    <label><input type="checkbox" name="english" value="English"/> English</label>
+                    <br>
+                    <label><input type="checkbox" name="other" value="other"/> Other</label>
+                </p>
+                <p>
+                    <label>Bio:</label>
+                </p>
+                <p>
+                    <textarea name="bio"></textarea>
+                </p>
+                <p>
+                    <input type="submit" name="submit" value="Sign Up" />
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
