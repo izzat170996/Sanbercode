@@ -1,0 +1,64 @@
+body {
+    background-image: url(../img/pattern.jpg);
+}
+
+.hd {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+}
+
+.hd ul {
+    list-style: none;
+}
+
+.hd ul li {
+    display: inline-block;
+    padding-right: 10px; 
+    color: #0000cd;
+    font-weight: bold;
+}
+
+.hd ul li a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#content {
+    background-color: #ffffff;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+#content h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#content #lp {
+    border-bottom: outset;
+    font-family: sans-serif;
+}
+
+footer {
+    background-color: #000000;
+    position: static;
+    
+}
+
+h5{
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 15px;
+}
